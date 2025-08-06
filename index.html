@@ -1,18 +1,4 @@
-<!--
-این فایل فقط داده‌های ترکیبات شیمیایی را به صورت JSON برمی‌گرداند تا بتوانید آن را با fetch از سایت دیگری دریافت کنید.
-برای استفاده، کافی است این فایل را روی هاست یا گیت‌هاب قرار دهید و آدرس آن را در پروژه اصلی fetch کنید.
--->
-<!DOCTYPE html>
-<html lang="fa">
-<head>
-    <meta charset="UTF-8">
-    <title>chemical-data.json</title>
-    <style>body{background:#222;color:#fff;font-family:monospace;padding:20px;}</style>
-</head>
-<body>
-<pre id="json"></pre>
-<script>
-const chemicals = [
+[
     {
         "id": 1,
         "name": "گلیسرول / گلیسیرین",
@@ -51,10 +37,4 @@ const chemicals = [
             "صنایع شیمیایی و پلاستیک‌های"
         ]
     }
-    // ترکیبات بیشتر را می‌توانید اضافه کنید
-];
-document.getElementById('json').textContent = JSON.stringify(chemicals, null, 2);
-</script>
-</body>
-</html>
-
+]
